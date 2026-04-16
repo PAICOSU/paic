@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Grady Seed Moisture Sensor | Research | PAIC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="nav-brand" href="index.html">
+        <img src="images/logo.jpg" alt="PAIC Logo" />
+        <span class="nav-brand-text">Precision Agriculture<br>Innovation Center</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== BREADCRUMB ===== -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span>&rsaquo;</span>
+      <a href="research.html">Research</a>
+      <span>&rsaquo;</span>
+      The Grady Seed Moisture Sensor
+    </div>
+  </div>
+
+  <!-- ===== PROJECT PAGE ===== -->
+  <section class="section">
+    <div class="container">
+
+      <h1 style="font-size:2rem; color:var(--green-dark); margin-bottom:1.5rem;">
+        A Portable Sensing Device Measuring Grass Seed Moisture in Seconds
+      </h1>
+
+      <!-- Banner image -->
+      <div class="project-banner" style="height:280px; overflow:hidden; padding:0;">
+        <img src="images/grady-sensor/image8.png" alt="The Grady Sensor components"
+             style="width:100%; height:100%; object-fit:contain; background:#f4f6f2; border-radius:var(--radius);" />
+      </div>
+
+      <!-- Body -->
+      <div class="project-body">
+        <div class="project-text">
+
+          <h2>Background</h2>
+          <p>In grass seed production, seed moisture content (SMC) is a critical indicator of harvest timing. Harvesting at high SMC leads to poor germination and storage spoilage, while harvesting at low SMC results in severe seed shattering that reduces production.</p>
+
+          <div class="project-figure-row">
+            <figure class="project-figure">
+              <img src="images/grady-sensor/image1.png" alt="Between rows under swath at early cut timing" />
+              <figcaption>Between rows under swath — early cut timing</figcaption>
+            </figure>
+            <figure class="project-figure">
+              <img src="images/grady-sensor/image2.png" alt="Between rows under swath at late cut timing" />
+              <figcaption>Between rows under swath — late cut timing </figcaption>
+            </figure>
+          </div>
+
+          <h2>The Problem with the Current Method</h2>
+          <p>The traditional method for determining SMC involves obtaining representative seed head samples from the field, stripping seed from the heads, weighing the seed before and after drying, and calculating SMC as a percentage. This process is time consuming, requires travel to a central location for sample processing, and sometimes occurs after the SMC has already fallen below recommended levels for swathing, or after long periods of transport which may influence accurate SMC estimation.</p>
+          <p>There is a pressing need for a more efficient method for determining SMC in grass seed crops so that timely harvest decisions can be made, especially when multiple fields need to be tested in a single day.</p>
+
+          <div class="project-figure-row">
+            <figure class="project-figure">
+              <img src="images/grady-sensor/image3.png" alt="Stripping seed from seed heads in the field" />
+              <figcaption>Stripping seed from seed heads in the field</figcaption>
+            </figure>
+            <figure class="project-figure">
+              <img src="images/grady-sensor/image4.png" alt="Oven drying seed samples at a central location" />
+              <figcaption>Oven drying seed samples — the current method for determining SMC</figcaption>
+            </figure>
+          </div>
+
+          <h2>Approach: Identifying Sensitive Spectral Wavelengths</h2>
+          <p>The project first aimed to identify the most sensitive spectral wavelengths to moisture in seeds. Using hyperspectral instruments, the team characterized the near-infrared (NIR) spectral response of seeds at varying moisture levels. The working principle leverages the fact that water molecules absorb light at specific NIR wavelengths; by measuring the amount of light absorbed, we can infer moisture content in the seed.</p>
+
+          <figure class="project-figure">
+            <img src="images/grady-sensor/image7.jpg" alt="Hyperspectral imaging setup to determine sensitive spectral wavelengths" />
+            <figcaption>Hyperspectral imaging setting to determine sensitive spectral wavelengths to moisture in seeds</figcaption>
+          </figure>
+
+          <h2>The Grady Sensor</h2>
+          <p>The team designed and developed the Grady Sensor, including the main device body, a seed cup, and calibration standards. The sensor delivers SMC readings in seconds, eliminating the need for sample transport and lab processing.</p>
+
+          <figure class="project-figure">
+            <img src="images/grady-sensor/image8.png" alt="Physical components of the Grady Sensor" />
+            <figcaption>Physical components of the Grady Sensor: main device body, seed cup, and calibration standard</figcaption>
+          </figure>
+
+          <h2>Performance</h2>
+          <p>The Grady Sensor is calibrated for eight grass seed species: tall fescue (<em>Schedonorus arundinaceus</em> (Shreb.) Dumort.), annual ryegrass (<em>Lolium perenne</em> L. ssp. <em>multiflorum</em> (Lam.) Husnot), perennial ryegrass (<em>Lolium perenne</em> L.), orchardgrass (<em>Dactylis glomerata</em> L.), creeping red fescue (<em>Festuca rubra</em> L. subsp. <em>rubra</em>), creeping bentgrass (<em>Agrostis stolonifera</em> L.), Chewings fescue (<em>Festuca rubra</em> L. subsp. <em>fallax</em> (Thuill.) Nyman), and Kentucky bluegrass (<em>Poa pratensis</em> L.). The Grady Sensor achieves a mean error of 1.2–4.6% across these eight species, and is proven to be a convenient and cost-effective means of SMC assessment in many economically important cool-season grass crop species.</p>
+
+          <figure class="project-figure">
+            <img src="images/grady-sensor/image9.png" alt="Accuracy results for 8 grass seed species" />
+            <figcaption>The relationship between near-infrared (NIR) sensor seed moisture content (SMC) and laboratory oven-derived SMC for eight grass seed crop species</figcaption>
+          </figure>
+
+          <h2>Availability</h2>
+          <p>The Grady Sensor is now commercially available through Digital Seed Technology Inc.</p>
+          <a href="https://www.digiseedtech.com" target="_blank" rel="noopener noreferrer" class="btn">Visit Digi Seed Tech &#8599;</a>
+
+        </div>
+
+        <aside class="project-sidebar">
+          <h4>Key Details</h4>
+          <ul>
+            <li><strong>Focus Crop:</strong> Cool-season grass seed </li>
+            <li><strong>Technology:</strong> Near-infrared (NIR) spectroscopy</li>
+            <li><strong>Accuracy:</strong> Mean error 1.2–4.6%</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Team</h4>
+          <ul>
+            <li>Dr. Jing Zhou (PI)</li>
+            <li>Dr. Nicole Anderson (NIBIO)</li>
+            <li>Marshall Garrett (alumni)</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Related Links</h4>
+          <ul>
+            <li><a href="https://www.digiseedtech.com" target="_blank" rel="noopener noreferrer">Digital Seed Technology Inc.</a></li>
+            <li><a href="https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/cft2.70097">Publication in Crop, Forage & Turfgrass Management</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <a href="research.html" class="btn btn-outline">&larr; Back to Research</a>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Precision Agriculture Innovation Center</h4>
+          <address>
+            Department of Crop and Soil Science<br>
+            Oregon State University<br>
+            Corvallis, Oregon 97331
+          </address>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>
+            Dr. Jing Zhou, Ph.D.<br>
+            Assistant Professor, Precision Agriculture Specialist<br>
+            <a href="mailto:jing.zhou@oregonstate.edu">jing.zhou@oregonstate.edu</a><br>
+            Office: 153A Crop Science Bldg
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Precision Agriculture Innovation Center, Oregon State University. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

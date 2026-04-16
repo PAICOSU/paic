@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Weed Management in Grass Seed Crops | Research | PAIC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="nav-brand" href="index.html">
+        <img src="images/logo.jpg" alt="PAIC Logo" />
+        <span class="nav-brand-text">Precision Agriculture<br>Innovation Center</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== BREADCRUMB ===== -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span>&rsaquo;</span>
+      <a href="research.html">Research</a>
+      <span>&rsaquo;</span>
+      Smart Weed Management in Grass Seed Crops
+    </div>
+  </div>
+
+  <!-- ===== PROJECT PAGE ===== -->
+  <section class="section">
+    <div class="container">
+
+      <h1 style="font-size:2rem; color:var(--green-dark); margin-bottom:1.5rem;">
+        Smart Weed Management in Grass Seed Crops
+      </h1>
+
+      <!-- Banner -->
+      <div class="project-banner" style="background: url('images/weed-id-banner.png') center/cover no-repeat;" ></div>
+
+      <!-- Body -->
+      <div class="project-body">
+        <div class="project-text">
+          <h2>Background</h2>
+          <p>The Willamette Valley of Oregon, known as the cool-season grass seed capital of the world, produces over 90% of the nation's fescue and ryegrass seeds. Weed management is one of the top priorities for Oregon turfgrass seed growers. Not only can weeds reduce yield, but weed seeds reduce the quality of crop seeds. The purity standard for certified seed — 0.3% weed seed with no prohibited weeds — necessitates that growers maintain as weed-free fields as possible to minimize weed seed shatter into the soil or harvest with the crop (Oregon Seed Certification Service Handbook, 2023).</p>
+
+          <h2>The Challenge</h2>
+          <p>Weed management in grass seed crops is especially challenging because the primary weed species are grasses themselves. Currently, no selective post-emergent herbicides are labeled to adequately control grass weeds in grass seed crops. Although non-selective post-emergent herbicides such as glufosinate are labeled for grass, their full-rate application can cause severe crop phytotoxicity and excessive seed production loss, while reduced-rate broadcast applications compromise weed efficacy (OSU Extension Service et al., 2009). Additionally, the continuous use of the same herbicide active ingredients has led to herbicide-resistant weeds in Oregon (Bobadilla et al., 2021).</p>
+
+          <figure class="project-figure">
+            <img src="images/weed-detection.jpeg" alt="AI detection of grass weeds in a grass seed crop field" />
+            <figcaption>AI-driven detection of grass weeds (highlighted with bounding box) within a grass seed crop field.</figcaption>
+          </figure>
+
+          <p>Current practice relies on costly hand spot spraying, where a crew of applicators with backpack sprayers walk through a field, identify weeds, and spray with a non-selective herbicide. The escalating costs and logistical challenges of hand labor underscore the pressing need for innovative weed management solutions that enhance efficiency, reduce dependency on manual labor, and ensure the economic viability of the agricultural industry.</p>
+
+          <figure class="project-figure">
+            <img src="images/hand-spraying.png" alt="Crew performing hand spot spraying in a grass seed field" />
+            <figcaption>Current practice: a crew with backpack sprayers hand-spots weeds across the field. <em>Image courtesy of Thomas G. Chastain.</em></figcaption>
+          </figure>
+
+          <h2>Our Approach</h2>
+          <p>This project develops an intelligent aerial-ground spot spraying system that integrates three core components:</p>
+          <ul style="list-style:disc; padding-left:1.5rem; color:var(--gray-mid); font-size:0.925rem; margin-bottom:1rem;">
+            <li>An <strong>Uncrewed Aerial Vehicle (UAV) imaging platform</strong> for field scouting and weed mapping</li>
+            <li>An <strong>AI-driven computer vision model</strong> to detect grass weeds within grass seed crops</li>
+            <li>A <strong>ground-based spot sprayer</strong> that navigates to identified weed locations and applies treatment precisely</li>
+          </ul>
+
+          <figure class="project-figure">
+            <img src="images/aerial-ground-system.png" alt="System diagram showing UAV scouting, AI weed detection, and ground-based precision spraying" />
+            <figcaption>The integrated aerial-ground system: UAV imaging feeds an AI detection model, which directs a ground-based precision sprayer to target weeds. <em>Image courtesy of Pete Berry.</em></figcaption>
+          </figure>
+
+          <p>By combining aerial imaging with AI-powered detection and precision ground application, this system replaces broad-spectrum herbicide applications and labor-intensive hand spraying with targeted, site-specific treatment — minimizing crop damage, reducing chemical inputs, and improving overall field management efficiency.</p>
+
+          <h2>Project Sponsors</h2>
+          <ul style="list-style:disc; padding-left:1.5rem; color:var(--gray-mid); font-size:0.925rem; margin-bottom:1rem;">
+            <li>USDA NIFA Crop Protection and Pest Management (CPPM)</li>
+            <li>Oregon Department of Agriculture (ODA) Specialty Crop Block Grant Program (SCBGP)</li>
+            <li>Oregon Grass Seed Commissions</li>
+          </ul>
+        </div>
+
+        <aside class="project-sidebar">
+          <h4>Key Details</h4>
+          <ul>
+            <li><strong>Focus Crop:</strong> Grass seed (fescue, ryegrass)</li>
+            <li><strong>Methods:</strong> UAV imaging, AI/computer vision, ground-based spot spraying</li>
+            <li><strong>Status:</strong> Active</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Team</h4>
+          <ul>
+            <li>Dr. Jing Zhou</li>
+            <li>Dr. Pete Berry</li>
+            <li>Dr. Jihye Park</li>
+            <li>Tz-Jie Dai</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Related Links</h4>
+          <ul>
+            <li><a href="research.html">All Research Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <!-- Image Gallery -->
+      <!-- <h3 style="color:var(--green-dark); margin-bottom:1rem;">Project Gallery</h3>
+      <div class="gallery-row">
+        <figure style="margin:0; text-align:center;">
+          <img src="images/weed-detection.jpeg" alt="AI detection of grass weeds" style="width:100%; height:180px; object-fit:cover; border-radius:var(--radius);" />
+          <figcaption style="font-size:0.8rem; color:var(--gray-mid); margin-top:0.4rem;">AI weed detection</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/hand-spraying.png" alt="Hand spot spraying in field" style="width:100%; height:180px; object-fit:cover; border-radius:var(--radius);" />
+          <figcaption style="font-size:0.8rem; color:var(--gray-mid); margin-top:0.4rem;">Current hand spraying practice</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/aerial-ground-system.png" alt="UAV to ground sprayer system diagram" style="width:100%; height:180px; object-fit:contain; border-radius:var(--radius); background:#f5f5f5;" />
+          <figcaption style="font-size:0.8rem; color:var(--gray-mid); margin-top:0.4rem;">Aerial-ground system overview</figcaption>
+        </figure>
+      </div>
+
+      <a href="research.html" class="btn btn-outline">&larr; Back to Research</a> -->
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Precision Agriculture Innovation Center</h4>
+          <address>
+            Department of Crop and Soil Science<br>
+            Oregon State University<br>
+            Corvallis, Oregon 97331
+          </address>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>
+            Dr. Jing Zhou, Ph.D.<br>
+            Assistant Professor, Precision Agriculture Specialist<br>
+            <a href="mailto:jing.zhou@oregonstate.edu">jing.zhou@oregonstate.edu</a><br>
+            Office: 153A Crop Science Bldg
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Precision Agriculture Innovation Center, Oregon State University. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

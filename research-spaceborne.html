@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spaceborne Classification | Research | PAIC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="nav-brand" href="index.html">
+        <img src="images/logo.jpg" alt="PAIC Logo" />
+        <span class="nav-brand-text">Precision Agriculture<br>Innovation Center</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== BREADCRUMB ===== -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span>&rsaquo;</span>
+      <a href="research.html">Research</a>
+      <span>&rsaquo;</span>
+      Spaceborne Imagery &amp; AI Classification
+    </div>
+  </div>
+
+  <!-- ===== PROJECT PAGE ===== -->
+  <section class="section">
+    <div class="container">
+
+      <h1 style="font-size:2rem; color:var(--green-dark); margin-bottom:1.5rem;">
+        Classification of Grass Seed Crop Species using Spaceborne Imagery and Artificial Intelligence-Driven Models
+      </h1>
+
+      <!-- Banner -->
+      <div class="project-banner" aria-label="Project image placeholder">
+        &#128752;
+      </div>
+
+      <!-- Body -->
+      <div class="project-body">
+        <div class="project-text">
+          <h2>Project Overview</h2>
+          <p>The Oregon Willamette Valley is the premier grass seed producing region in the world, growing dozens of cool-season grass species including ryegrasses, fescues, and bluegrasses. Accurately mapping the spatial distribution of these species is essential for agricultural statistics, supply chain management, pest monitoring, and regional planning. This project develops AI-driven classification models trained on multi-temporal satellite imagery to produce high-accuracy, field-scale crop type maps.</p>
+
+          <h2>Objectives</h2>
+          <ul style="list-style:disc; padding-left:1.5rem; color:var(--gray-mid); font-size:0.925rem; margin-bottom:1rem;">
+            <li>Compile multi-temporal, multi-spectral satellite imagery time series from platforms including Sentinel-2 and Planet</li>
+            <li>Develop ground truth datasets through field surveys and collaboration with Oregon seed growers</li>
+            <li>Train, validate, and compare machine learning and deep learning classifiers (Random Forest, CNN, Transformer-based models) for species discrimination</li>
+            <li>Produce annual crop type maps and assess temporal consistency and transferability across growing seasons</li>
+          </ul>
+
+          <h2>Methods</h2>
+          <p>Google Earth Engine (GEE) provides the cloud computing infrastructure for accessing and preprocessing large satellite image archives. Time-series feature extraction captures the distinct phenological trajectories of different grass seed species across the growing season. Training data integration from field-collected GPS points and digitized parcel boundaries ensures spatially accurate model supervision. Accuracy assessments include confusion matrices, producer/user accuracy, and spatial uncertainty mapping.</p>
+
+          <h2>Impact</h2>
+          <p>Accurate, annual grass seed crop maps will support the Oregon Department of Agriculture, the Oregon Seed Council, and individual growers with better inventory estimates, logistics planning, and response to pest or disease outbreaks. This work also advances the broader field of fine-scale crop type mapping in complex, mixed agricultural landscapes.</p>
+        </div>
+
+        <aside class="project-sidebar">
+          <h4>Key Details</h4>
+          <ul>
+            <li><strong>Data:</strong> Sentinel-2, Planet satellite imagery</li>
+            <li><strong>Platform:</strong> Google Earth Engine</li>
+            <li><strong>Methods:</strong> Deep learning, time-series analysis</li>
+            <li><strong>Region:</strong> Willamette Valley, Oregon</li>
+            <li><strong>Status:</strong> Active</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Team</h4>
+          <ul>
+            <li>Dr. Jing Zhou (PI)</li>
+            <li>Qianyi Duan</li>
+            <li>Tz-Jie Dai</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem;">Related Links</h4>
+          <ul>
+            <li><a href="research.html">All Research Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="https://earthengine.google.com" target="_blank" rel="noopener">Google Earth Engine</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <!-- Image Gallery -->
+      <h3 style="color:var(--green-dark); margin-bottom:1rem;">Project Gallery</h3>
+      <div class="gallery-row">
+        <div class="gallery-placeholder" title="Satellite imagery placeholder">&#128752;</div>
+        <div class="gallery-placeholder" title="Classification map placeholder">&#128506;</div>
+        <div class="gallery-placeholder" title="Accuracy assessment placeholder">&#128202;</div>
+      </div>
+
+      <a href="research.html" class="btn btn-outline">&larr; Back to Research</a>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Precision Agriculture Innovation Center</h4>
+          <address>
+            Department of Crop and Soil Science<br>
+            Oregon State University<br>
+            Corvallis, Oregon 97331
+          </address>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>
+            Dr. Jing Zhou, Ph.D.<br>
+            Assistant Professor, Precision Agriculture Specialist<br>
+            <a href="mailto:jing.zhou@oregonstate.edu">jing.zhou@oregonstate.edu</a><br>
+            Office: 153A Crop Science Bldg
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Precision Agriculture Innovation Center, Oregon State University. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
